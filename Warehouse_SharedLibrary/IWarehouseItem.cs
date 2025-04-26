@@ -10,4 +10,5 @@ namespace Warehouse_SharedLibrary;
 public interface IWarehouseItem
 {
     
+    
 }
