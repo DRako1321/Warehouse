@@ -21,6 +21,5 @@ namespace Warehouse
         {
             InitializeComponent();
         }
-        Class1 amba = new Class1 ();
     }
 }
