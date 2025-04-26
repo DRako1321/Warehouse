@@ -4,8 +4,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.13.35913.81 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Warehouse_WPF", "Warehouse\Warehouse_WPF.csproj", "{723A3191-BE48-4046-A32E-8549B9510A6D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BB7E471E-949B-4962-9706-03CE086B557E} = {BB7E471E-949B-4962-9706-03CE086B557E}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Warehouse_ASP", "Warehouse_ASP\Warehouse_ASP.csproj", "{EB2387D8-F35C-47E5-B9B5-0B29F3BBFD7C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BB7E471E-949B-4962-9706-03CE086B557E} = {BB7E471E-949B-4962-9706-03CE086B557E}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Warehouse_SharedLibrary", "Warehouse_SharedLibrary\Warehouse_SharedLibrary.csproj", "{BB7E471E-949B-4962-9706-03CE086B557E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +29,10 @@ Global
 		{EB2387D8-F35C-47E5-B9B5-0B29F3BBFD7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB2387D8-F35C-47E5-B9B5-0B29F3BBFD7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB2387D8-F35C-47E5-B9B5-0B29F3BBFD7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB7E471E-949B-4962-9706-03CE086B557E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB7E471E-949B-4962-9706-03CE086B557E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB7E471E-949B-4962-9706-03CE086B557E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB7E471E-949B-4962-9706-03CE086B557E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

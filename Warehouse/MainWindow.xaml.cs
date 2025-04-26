@@ -8,6 +8,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Warehouse_SharedLibrary;
 
 namespace Warehouse
 {
@@ -20,5 +21,6 @@ namespace Warehouse
         {
             InitializeComponent();
         }
+        Class1 amba = new Class1 ();
     }
 }

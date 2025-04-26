@@ -1,3 +1,5 @@
+using Warehouse_SharedLibrary;
+
 var builder = WebApplication.CreateBuilder (args);
 
 // Add services to the container.
@@ -24,3 +26,4 @@ app.MapRazorPages ()
    .WithStaticAssets ();
 
 app.Run ();
+
