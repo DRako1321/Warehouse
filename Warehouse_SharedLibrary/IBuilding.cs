@@ -4,9 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Warehouse_SharedLibrary
+namespace Warehouse_SharedLibrary;
+
+internal interface IBuilding
 {
-    internal interface IBuilding
-    {
-    }
 }
